@@ -1,0 +1,130 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+}
+
+header {
+  height: 69px;
+  width: 100%;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  z-index: 1;
+  background-color: black;
+  align-items: center;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.logo {
+  height: 50px;
+  padding-left: 10px;
+}
+
+nav {
+  text-align: right;
+  flex-grow: 1;
+}
+nav li {
+  display: inline-block;
+  padding: 20px 10px;
+}
+
+li a {
+  color: seashell;
+  text-decoration: underline;
+}
+
+main {
+  padding-top: 69px;
+  width: 1200px;
+  margin: auto;
+}
+
+h2,
+h3,
+h4 {
+  margin: 0;
+  padding: 10px;
+}
+#mission {
+  height: 700px;
+  background-image: url(../../assets/images/img-mission-background.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.hero-text {
+  margin: auto;
+  background-color: black;
+  width: 100%;
+}
+
+#store {
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 70px;
+}
+
+.item {
+  padding: 5px;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+  display: block;
+  margin: 10px;
+}
+
+span {
+  padding: 10px;
+  font-weight: bold;
+}
+
+#locations {
+  background-image: url(../../assets/images/img-locations-background.webp);
+  height: 500px;
+  padding-top: 70px;
+}
+
+.location {
+  margin: 5px 20px;
+  gap: 40px;
+  background-color: black;
+  width: 300px;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-basis: 280px;
+  padding: 10px;
+}
+
+.contact {
+  height: 200px;
+}
+
+h5 {
+  padding: 20px;
+}
+
+footer {
+  text-align: left;
+  padding-left: 20px;
+}
